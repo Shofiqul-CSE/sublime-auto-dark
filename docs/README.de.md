@@ -47,11 +47,9 @@ Siehe [`LICENSE`](https://github.com/jrappen/sublime-auto-dark/blob/master/LICEN
 
 #### Danksagungen
 
-* <https://github.com/deathaxe/sublime-clock/blob/master/clock.py>
-  * Copyright (c) 2016 Deathaxe, MIT License
-* <https://github.com/albertosottile/darkdetect/blob/master/darkdetect/_detect.py>
-  * Copyright (C) 2019 Alberto Sottile, 3-clause BSD License
-* <https://stackoverflow.com/questions/58130332>
+> <https://github.com/deathaxe/sublime-clock/blob/master/clock.py>
+>
+> Copyright (c) 2016 Deathaxe, MIT License
 
 ### Feedback
 
