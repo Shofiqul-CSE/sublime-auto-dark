@@ -1,27 +1,6 @@
-[![License](https://img.shields.io/github/license/jrappen/sublime-auto-dark.svg?style=flat-square)](https://github.com/jrappen/sublime-auto-dark/blob/master/LICENSE)
-[![Required ST Build](https://img.shields.io/badge/ST-Build%204065+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
-[![Downloads Package Control](https://img.shields.io/packagecontrol/dt/auto-dark.svg?style=flat-square)](https://packagecontrol.io/packages/auto-dark)
-[![Latest tag](https://img.shields.io/github/tag/jrappen/sublime-auto-dark.svg?style=flat-square&logo=github)](https://github.com/jrappen/sublime-auto-dark/tags)
-[![Donate via PayPal](https://img.shields.io/badge/paypal.me-jrappen-009cde.svg?style=flat-square&logo=paypal)](https://www.paypal.me/jrappen)
-[![SublimeHQ Discord](https://img.shields.io/discord/280102180189634562?label=SublimeHQ%20Discord&logo=discord&style=flat-square)](https://discord.gg/D43Pecu)
-
 # `auto-dark` plug-in for [Sublime Text](https://www.sublimetext.com)
 
 > Automatically switch Sublime Color Schemes with your operating system's appearance.
-
-## Documentation
-
-### English 🇺🇸🇬🇧🇨🇦🇦🇺🇳🇿
-
-> Plugin documentation is available in English via the menu or command palette.
-
-[`jrappen/sublime-auto-dark:docs/README.en.md@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.en.md)
-
-### German (Deutsch) 🇩🇪🇦🇹🇨🇭
-
-> Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
-
-[`jrappen/sublime-auto-dark:docs/README.de.md@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.de.md)
 
 ## Requirements
 
