@@ -29,10 +29,13 @@ Wechsle automatisch Sublime Color Schemes mit dem Aussehen deines Operationssyst
 * beim Wechseln zu Sublime
 * oder alle 5 Min (auf der Uhr)
 
-mithilfe der Einstellungen:
+`auto-dark` kopiert:
 
 * `color_scheme.light`
-* `color_scheme.dark`
+* oder `color_scheme.dark`
+
+zu dem Zeitpunkt zu `color_scheme` in `Preferences.sublime-settings`.
+Du kannst dafür auch den Name der Ressource anstatt des vollen (lokalen) Pfads verwenden.
 
 ## Quellcode
 
