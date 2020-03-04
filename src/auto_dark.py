@@ -31,20 +31,24 @@ class AutoDark(object):
             import subprocess
             status = subprocess.check_output(get_status.split(), stderr=subprocess.STDOUT).decode()
             status = status.replace('\n', '')
-        except subprocess.CalledProcessError:
+        except subprocess.CalledProcessError as e:
             return False
-        if status == 'Dark':
-            return True
-        else:
-            return False
+        return True if status == 'Dark' else False
 
     @classmethod
     def is_dark_windows(cls):
-        import winreg
-        registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
-        key = winreg.OpenKey(registry, 'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize')
-        mode = winreg.QueryValueEx(key, 'AppsUseLightTheme')
-        return not bool(mode[0])
+        value = 1 # default to light theme
+        try:
+            import winreg
+            registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
+            with winreg.OpenKey(
+                registry,
+                'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize'
+            ) as key:
+                value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
+        except Exception as e:
+            pass
+        return not bool(value)
 
     @classmethod
     def start(cls):
