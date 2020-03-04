@@ -47,7 +47,7 @@ Siehe [`LICENSE`](https://github.com/jrappen/sublime-auto-dark/blob/master/LICEN
 
 #### Danksagungen
 
-> <https://github.com/deathaxe/sublime-clock/blob/master/clock.py>
+> [`deathaxe/sublime-clock:clock.py@master`](https://github.com/deathaxe/sublime-clock/blob/master/clock.py)
 >
 > Copyright (c) 2016 Deathaxe, MIT License
 
