@@ -57,9 +57,11 @@ class AutoDark(object):
                 from .detect_win import isDark
                 IS_DARK = isDark()
             if IS_DARK:
+                # TODO: check default value for color_scheme
                 CS_NOW = PREF.get('color_scheme')
                 CS_NEW = PREF.get('color_scheme.dark', 'Mariana.sublime-color-scheme')
             else:
+                # TODO: check default value for color_scheme
                 CS_NOW = PREF.get('color_scheme')
                 CS_NEW = PREF.get('color_scheme.light', 'Breakers.sublime-color-scheme')
             if CS_NOW != CS_NEW:

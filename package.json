@@ -1,0 +1,30 @@
+{
+    "name": "sublime-auto-dark",
+    "version": "1.0.0-beta.1",
+    "description": "Automatically switch Sublime Color Schemes with OS Appearance",
+    "author": {
+        "name": "Johannes Rappen",
+        "url": "https://github.com/jrappen"
+    },
+    "license": "ISC",
+    "homepage": "https://github.com/jrappen/sublime-auto-dark#readme",
+    "bugs": {
+        "url": "https://github.com/jrappen/sublime-auto-dark/issues/new"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jrappen/sublime-auto-dark.git"
+    },
+    "scripts": {
+        "release": "node scripts/release.js"
+    },
+    "engines": {
+        "node": ">= 13.7.0",
+        "npm": ">= 6.13.7"
+    },
+    "devDependencies": {
+        "execa": "^4.0.0",
+        "inquirer": "^7.0.3",
+        "semver": "^7.1.0"
+    }
+}
