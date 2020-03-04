@@ -5,6 +5,7 @@
 import sublime
 
 from .auto_dark import *
+from .window_commands import *
 
 
 def plugin_loaded():

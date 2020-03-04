@@ -1,0 +1,68 @@
+[
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "auto-dark",
+                        "children":
+                        [
+                            {
+                                "caption": "Changelog",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/jrappen/sublime-auto-dark/blob/master/CHANGELOG.md"
+                                }
+                            },
+                            {
+                                "caption": "Documentation",
+                                "children":
+                                [
+                                    {
+                                        "caption": "English",
+                                        "command": "auto_dark_open_docs",
+                                        "args":
+                                        {
+                                            "resource_path": "docs/README.en.md"
+                                        }
+                                    },
+                                    {
+                                        "caption": "German (Deutsch)",
+                                        "command": "auto_dark_open_docs",
+                                        "args":
+                                        {
+                                            "resource_path": "docs/README.de.md"
+                                        }
+                                    }
+                                ]
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Issues",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://github.com/jrappen/sublime-auto-dark/issues"
+                                }
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Donations",
+                                "command": "open_url",
+                                "args":
+                                {
+                                    "url": "https://www.paypal.me/jrappen"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
