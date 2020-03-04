@@ -19,12 +19,12 @@
         "release": "node scripts/release.js"
     },
     "engines": {
-        "node": ">= 13.7.0",
-        "npm": ">= 6.13.7"
+        "node": ">= 13.8.0",
+        "npm": ">= 6.14.2"
     },
     "devDependencies": {
         "execa": "^4.0.0",
-        "inquirer": "^7.0.3",
-        "semver": "^7.1.0"
+        "inquirer": "^7.0.6",
+        "semver": "^7.1.3"
     }
 }
