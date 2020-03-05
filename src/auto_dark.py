@@ -16,7 +16,7 @@ def plugin_unloaded():
 
 class EventListener(sublime_plugin.EventListener):
 
-    def on_activated(self, view):
+    def on_activated_async(self, view):
         AutoDark.paint(view)
 
 
@@ -25,30 +25,34 @@ class AutoDark(object):
     running = False
 
     @classmethod
-    def is_dark_macos(cls):
-        try:
-            get_status = 'defaults read -g AppleInterfaceStyle'
-            import subprocess
-            status = subprocess.check_output(get_status.split(), stderr=subprocess.STDOUT).decode()
-            status = status.replace('\n', '')
-        except subprocess.CalledProcessError as e:
+    def is_dark_os(cls, current_pf):
+        if current_pf == 'osx':
+            try:
+                get_status = 'defaults read -g AppleInterfaceStyle'
+                import subprocess
+                status = subprocess.check_output(
+                    get_status.split(),
+                    stderr=subprocess.STDOUT
+                ).decode()
+                status = status.replace('\n', '')
+            except subprocess.CalledProcessError as e:
+                return False
+            return True if status.lower() == 'dark' else False
+        elif current_pf == 'windows':
+            value = 1 # default to light theme
+            try:
+                import winreg
+                registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
+                with winreg.OpenKey(
+                    registry,
+                    'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize'
+                ) as key:
+                    value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
+            except Exception as e:
+                pass
+            return not bool(value)
+        else:
             return False
-        return True if status == 'Dark' else False
-
-    @classmethod
-    def is_dark_windows(cls):
-        value = 1 # default to light theme
-        try:
-            import winreg
-            registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
-            with winreg.OpenKey(
-                registry,
-                'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize'
-            ) as key:
-                value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
-        except Exception as e:
-            pass
-        return not bool(value)
 
     @classmethod
     def start(cls):
@@ -70,12 +74,11 @@ class AutoDark(object):
     def paint(cls, view):
         try:
             PREF = sublime.load_settings('Preferences.sublime-settings')
-            if sublime.platform() == 'osx':
-                IS_DARK = cls.is_dark_macos()
-            elif sublime.platform() == 'windows':
-                IS_DARK = cls.is_dark_windows()
-            else:
+            current_pf = sublime.platform()
+            if current_pf == 'linux':
                 IS_DARK = False
+            else:
+                IS_DARK = cls.is_dark_os(current_pf)
             CS_NOW = PREF.get('color_scheme', 'Monokai.sublime-color-scheme')
             if IS_DARK:
                 CS_NEW = PREF.get('color_scheme.dark', 'Mariana.sublime-color-scheme')
