@@ -17,7 +17,7 @@ def plugin_unloaded():
 class EventListener(sublime_plugin.EventListener):
 
     def on_activated_async(self, view):
-        AutoDark.paint(view)
+        AutoDark.paint()
 
 
 class AutoDark(object):
@@ -25,7 +25,71 @@ class AutoDark(object):
     running = False
 
     @classmethod
-    def is_dark_os(cls, current_pf):
+    def has_dark_mode_support():
+        current_pf = sublime.platform()
+        if current_pf == 'osx':
+            from distutils.version import LooseVersion as V
+            import platform
+            if V(platform.mac_ver()[0]) < V('10.14'):
+                return False
+        elif current_pf == 'linux':
+            return False
+        return True
+
+    @classmethod
+    def start(cls):
+        if not has_dark_mode_support():
+            return
+        cls.running = True
+        cls._tick()
+
+    @classmethod
+    def stop(cls):
+        cls.running = False
+
+    @classmethod
+    def _tick(cls):
+        try:
+            if cls.running:
+                sublime.set_timeout_async(cls._tick, cls._update())
+        except Exception as e:
+            print('AutoDark: Error: ', e)
+            cls.stop()
+
+    @classmethod
+    def _update(cls):
+        import datetime
+        now = datetime.datetime.now()
+        try:
+            cls.paint()
+        except Exception as e:
+            pass
+        # every 5 mins max
+        return 60000 * (4 - now.minute % 5) + 1000 * (60 - now.second)
+
+    @classmethod
+    def paint(cls):
+        try:
+            PREF = sublime.load_settings('Preferences.sublime-settings')
+            current_pf = sublime.platform()
+            if current_pf == 'linux':
+                IS_DARK = False
+            else:
+                IS_DARK = cls.is_dark_os()
+            CS_NOW = PREF.get('color_scheme', 'Monokai.sublime-color-scheme')
+            if IS_DARK:
+                CS_NEW = PREF.get('color_scheme.dark', 'Mariana.sublime-color-scheme')
+            else:
+                CS_NEW = PREF.get('color_scheme.light', 'Breakers.sublime-color-scheme')
+            if CS_NOW != CS_NEW:
+                PREF.set('color_scheme', CS_NEW)
+                sublime.save_settings('Preferences.sublime-settings')
+        except Exception as e:
+            print('AutoDark: Error: ', e)
+
+    @classmethod
+    def is_dark_os(cls):
+        current_pf = sublime.platform()
         if current_pf == 'osx':
             try:
                 get_status = 'defaults read -g AppleInterfaceStyle'
@@ -50,62 +114,6 @@ class AutoDark(object):
                     value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
             except Exception as e:
                 pass
-            return not bool(value)
+            return value > 0
         else:
             return False
-
-    @classmethod
-    def start(cls):
-        if sublime.platform() == 'osx':
-            from distutils.version import LooseVersion as V
-            import platform
-            if V(platform.mac_ver()[0]) < V('10.14'):
-                return
-        elif sublime.platform() == 'linux':
-            return
-        cls.running = True
-        cls._tick()
-
-    @classmethod
-    def stop(cls):
-        cls.running = False
-
-    @classmethod
-    def paint(cls, view):
-        try:
-            PREF = sublime.load_settings('Preferences.sublime-settings')
-            current_pf = sublime.platform()
-            if current_pf == 'linux':
-                IS_DARK = False
-            else:
-                IS_DARK = cls.is_dark_os(current_pf)
-            CS_NOW = PREF.get('color_scheme', 'Monokai.sublime-color-scheme')
-            if IS_DARK:
-                CS_NEW = PREF.get('color_scheme.dark', 'Mariana.sublime-color-scheme')
-            else:
-                CS_NEW = PREF.get('color_scheme.light', 'Breakers.sublime-color-scheme')
-            if CS_NOW != CS_NEW:
-                PREF.set('color_scheme', CS_NEW)
-                sublime.save_settings('Preferences.sublime-settings')
-        except Exception as e:
-            print('AutoDark: Error: ', e)
-
-    @classmethod
-    def _tick(cls):
-        try:
-            if cls.running:
-                sublime.set_timeout_async(cls._tick, cls._update())
-        except Exception as e:
-            print('AutoDark: Error: ', e)
-            cls.stop()
-
-    @classmethod
-    def _update(cls):
-        import datetime
-        now = datetime.datetime.now()
-        try:
-            cls.paint()
-        except Exception as e:
-            pass
-        # every 5 mins max
-        return 60000 * (4 - now.minute % 5) + 1000 * (60 - now.second)
