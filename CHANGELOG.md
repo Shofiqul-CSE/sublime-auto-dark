@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/jrappen/sublime-auto-dark/compare/1.0.3...1.0.4) (2020-03-05)
+
+
+### Bug Fixes
+
+* **Python code:** Remove unused parameter ([4bac492](https://github.com/jrappen/sublime-auto-dark/commit/4bac4929ab3e21fde0aca920a8cade938c271d12))
+
+
+
 ## [1.0.3](https://github.com/jrappen/sublime-auto-dark/compare/1.0.0...1.0.3) (2020-03-05)
 
 ### Bug Fixes
