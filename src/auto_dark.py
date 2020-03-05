@@ -38,7 +38,7 @@ class AutoDark(object):
 
     @classmethod
     def start(cls):
-        if not has_dark_mode_support():
+        if not cls.has_dark_mode_support():
             return
         cls.running = True
         cls._tick()
@@ -96,7 +96,7 @@ class AutoDark(object):
                 import subprocess
                 status = subprocess.check_output(
                     get_status.split(),
-                    stderr=subprocess.STDOUT
+                    stderr = subprocess.STDOUT
                 ).decode()
                 status = status.replace('\n', '')
             except subprocess.CalledProcessError as e:
@@ -106,12 +106,15 @@ class AutoDark(object):
             value = 1 # default to light theme
             try:
                 import winreg
-                registry = winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER)
-                with winreg.OpenKey(
-                    registry,
-                    'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize'
-                ) as key:
-                    value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
+                with winreg.ConnectRegistry(
+                    None,
+                    winreg.HKEY_CURRENT_USER
+                ) as registry:
+                    with winreg.OpenKey(
+                        registry,
+                        'SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize'
+                    ) as key:
+                        value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
             except Exception as e:
                 pass
             return value > 0
