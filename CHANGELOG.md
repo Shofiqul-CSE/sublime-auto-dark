@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/jrappen/sublime-auto-dark/compare/1.0.2...1.0.3) (2020-03-05)
+
+
+### Bug Fixes
+
+* **Python code:** Fix painting on async & cleanup ([00e9ce8](https://github.com/jrappen/sublime-auto-dark/commit/00e9ce8e02a841d60bb0b5923cd46556d00c723c))
+
+
+
 ## [1.0.2](https://github.com/jrappen/sublime-auto-dark/compare/1.0.1...1.0.2) (2020-03-04)
 
 ### Bug Fixes
