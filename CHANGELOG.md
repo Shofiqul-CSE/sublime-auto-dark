@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/jrappen/sublime-auto-dark/compare/1.0.4...1.0.5) (2020-03-05)
+
+
+### Bug Fixes
+
+* **Python code:** Add missing `cls.` & use `with` ([1ad4d3c](https://github.com/jrappen/sublime-auto-dark/commit/1ad4d3c838bd2041a7a6c85a75b1d5d868a21206))
+
+
+
 ## [1.0.4](https://github.com/jrappen/sublime-auto-dark/compare/1.0.3...1.0.4) (2020-03-05)
 
 
