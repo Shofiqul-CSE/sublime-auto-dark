@@ -1,3 +1,12 @@
+## [1.0.6](https://github.com/jrappen/sublime-auto-dark/compare/1.0.5...1.0.6) (2020-03-06)
+
+
+### Bug Fixes
+
+* **docs:** Use 4 spaces indentation for list items ([6d596bf](https://github.com/jrappen/sublime-auto-dark/commit/6d596bf3d96b47e5519b9522f2ee53ac9827e483))
+
+
+
 ## [1.0.5](https://github.com/jrappen/sublime-auto-dark/compare/1.0.0...1.0.5) (2020-03-05)
 
 ### Bug Fixes
