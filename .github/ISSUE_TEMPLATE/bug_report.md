@@ -25,9 +25,9 @@ Description ...
 ### Steps to reproduce
 
 * This is the first step.
-  1. one
-  2. two
-  3. three
+    1. one
+    2. two
+    3. three
 * This is the second step.
 * Further steps, etc.
 
