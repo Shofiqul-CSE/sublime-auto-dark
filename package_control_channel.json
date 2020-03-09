@@ -1,0 +1,24 @@
+{
+	"schema_version": "3.0.0",
+	"packages":
+	[
+		{
+			"name": "auto-dark",
+			"author": "Johannes Rappen (jrappen)",
+			"details": "https://github.com/jrappen/sublime-auto-dark",
+			"donate": "https://paypal.me/jrappen",
+			"labels":
+			[
+				"dark-mode",
+				"automation"
+			],
+			"releases":
+			[
+				{
+					"sublime_text": ">=4065",
+					"tags": true
+				}
+			]
+		}
+	]
+}
