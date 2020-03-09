@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.1) (2020-03-09)
+
+
+### Bug Fixes
+
+* **Python:** Fix readability of Python source ([313fd13](https://github.com/jrappen/sublime-auto-dark/commit/313fd1370305993c0e4e7a71d0eeed73b7425198))
+
+
+
 # [1.1.0](https://github.com/jrappen/sublime-auto-dark/compare/1.0.0...1.1.0) (2020-03-09)
 
 ### Features
