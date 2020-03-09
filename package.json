@@ -1,6 +1,6 @@
 {
     "name": "sublime-auto-dark",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Automatically switch Sublime Color Schemes with OS Appearance",
     "author": {
         "name": "Johannes Rappen",
