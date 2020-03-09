@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/jrappen/sublime-auto-dark/compare/1.0.6...1.1.0) (2020-03-09)
+
+
+### Bug Fixes
+
+* **Python:** Fix readability of Python source ([bab804e](https://github.com/jrappen/sublime-auto-dark/commit/bab804e5f1f87c9e89d3f4f83fd4b493064ca1a7))
+
+
+### Features
+
+* **Package Control:** Add PkgCtrl channel file ([db3a69e](https://github.com/jrappen/sublime-auto-dark/commit/db3a69ecdc3545c28f66f939b201b0bc3dfa9b67))
+
+
+
 ## [1.0.6](https://github.com/jrappen/sublime-auto-dark/compare/1.0.5...1.0.6) (2020-03-06)
 
 
