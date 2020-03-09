@@ -74,10 +74,7 @@ class AutoDark(object):
             current_pf = sublime.platform()
             IS_DARK = False if current_pf == 'linux' else cls.is_dark_os()
             CS_NOW = PREF.get('color_scheme', 'Monokai.sublime-color-scheme')
-            if IS_DARK:
-                CS_NEW = PREF.get('color_scheme.dark', 'Mariana.sublime-color-scheme')
-            else:
-                CS_NEW = PREF.get('color_scheme.light', 'Breakers.sublime-color-scheme')
+            CS_NEW = PREF.get('color_scheme.dark', 'Mariana.sublime-color-scheme') if IS_DARK else PREF.get('color_scheme.light', 'Breakers.sublime-color-scheme')
             if CS_NOW != CS_NEW:
                 PREF.set('color_scheme', CS_NEW)
                 sublime.save_settings('Preferences.sublime-settings')
