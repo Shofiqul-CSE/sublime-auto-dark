@@ -25,7 +25,7 @@ class AutoDark(object):
     running = False
 
     @classmethod
-    def has_dark_mode_support():
+    def has_dark_mode_support(cls):
         current_pf = sublime.platform()
         if current_pf == 'osx':
             from distutils.version import LooseVersion as V
