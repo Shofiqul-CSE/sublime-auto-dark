@@ -112,6 +112,6 @@ class AutoDark(object):
                         value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
             except Exception as e:
                 print('AutoDark: Error: ', e)
-            return value > 0
+            return not bool(value)
         else:
             return False
