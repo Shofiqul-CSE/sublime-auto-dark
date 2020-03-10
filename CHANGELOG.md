@@ -1,25 +1,9 @@
-## [1.1.4](https://github.com/jrappen/sublime-auto-dark/compare/1.1.3...1.1.4) (2020-03-10)
-
+## [1.1.4](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.4) (2020-03-10)
 
 ### Bug Fixes
 
 * **Python:** Fix typo ([c2b4d1f](https://github.com/jrappen/sublime-auto-dark/commit/c2b4d1fbbd85d9b44bed982991f3d26551ca7644))
-
-
-
-## [1.1.3](https://github.com/jrappen/sublime-auto-dark/compare/1.1.2...1.1.3) (2020-03-10)
-
-
-### Bug Fixes
-
 * **Python:** Add more debugging code ([b6efbe8](https://github.com/jrappen/sublime-auto-dark/commit/b6efbe8db882fc6ce169866f7f702a4173e338cf))
-
-
-
-## [1.1.2](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.2) (2020-03-10)
-
-### Bug Fixes
-
 * **Python:** Add missing arg `cls` ([27924dc](https://github.com/jrappen/sublime-auto-dark/commit/27924dcb790592ae75b5f1a52b142ca075e2388d))
 * **Python:** Fix readability of Python source ([313fd13](https://github.com/jrappen/sublime-auto-dark/commit/313fd1370305993c0e4e7a71d0eeed73b7425198))
 
