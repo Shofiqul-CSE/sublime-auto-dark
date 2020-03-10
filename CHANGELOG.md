@@ -1,3 +1,12 @@
+## [1.1.2](https://github.com/jrappen/sublime-auto-dark/compare/1.1.1...1.1.2) (2020-03-10)
+
+
+### Bug Fixes
+
+* **Python:** Add missing arg `cls` ([27924dc](https://github.com/jrappen/sublime-auto-dark/commit/27924dcb790592ae75b5f1a52b142ca075e2388d))
+
+
+
 ## [1.1.1](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.1) (2020-03-09)
 
 
