@@ -1,3 +1,12 @@
+## [1.1.4](https://github.com/jrappen/sublime-auto-dark/compare/1.1.3...1.1.4) (2020-03-10)
+
+
+### Bug Fixes
+
+* **Python:** Fix typo ([c2b4d1f](https://github.com/jrappen/sublime-auto-dark/commit/c2b4d1fbbd85d9b44bed982991f3d26551ca7644))
+
+
+
 ## [1.1.3](https://github.com/jrappen/sublime-auto-dark/compare/1.1.2...1.1.3) (2020-03-10)
 
 
