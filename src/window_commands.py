@@ -33,7 +33,7 @@ class AutoDarkOpenDocs(sublime_plugin.WindowCommand):
             )
         except Exception as e:
             # TODO: update for py3.8
-            print('print: Exception: {}'.format(e))
+            print('AutoDark: Error: ', e)
 
     # def is_enabled(self): return bool
 

@@ -63,7 +63,7 @@ class AutoDark(object):
         try:
             cls.paint()
         except Exception as e:
-            pass
+            print('AutoDark: Error: ', e)
         # every 5 mins max
         return 60000 * (4 - now.minute % 5) + 1000 * (60 - now.second)
 
@@ -93,7 +93,8 @@ class AutoDark(object):
                     stderr = subprocess.STDOUT
                 ).decode()
                 status = status.replace('\n', '')
-            except subprocess.CalledProcessError as e:
+            except Exception as e:
+                print('AutoDark: Error: ', e)
                 return False
             return True if status.lower() == 'dark' else False
         elif current_pf == 'windows':
@@ -110,7 +111,7 @@ class AutoDark(object):
                     ) as key:
                         value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
             except Exception as e:
-                pass
+                print('AutoDark: Error: ', e)
             return value > 0
         else:
             return False
