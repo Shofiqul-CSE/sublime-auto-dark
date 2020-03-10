@@ -1,3 +1,12 @@
+## [1.1.3](https://github.com/jrappen/sublime-auto-dark/compare/1.1.2...1.1.3) (2020-03-10)
+
+
+### Bug Fixes
+
+* **Python:** Add more debugging code ([b6efbe8](https://github.com/jrappen/sublime-auto-dark/commit/b6efbe8db882fc6ce169866f7f702a4173e338cf))
+
+
+
 ## [1.1.2](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.2) (2020-03-10)
 
 ### Bug Fixes
