@@ -1,3 +1,12 @@
+## [1.1.8](https://github.com/jrappen/sublime-auto-dark/compare/1.1.7...1.1.8) (2020-03-11)
+
+
+### Bug Fixes
+
+* **Python:** Fix logic of detecting dark mode ([cbe416d](https://github.com/jrappen/sublime-auto-dark/commit/cbe416d3eb26bb1fa4f1952ad035fa3539642583))
+
+
+
 ## [1.1.7](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.7) (2020-03-11)
 
 ### Bug Fixes
