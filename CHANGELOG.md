@@ -1,16 +1,8 @@
-## [1.1.7](https://github.com/jrappen/sublime-auto-dark/compare/1.1.6...1.1.7) (2020-03-11)
-
+## [1.1.7](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.7) (2020-03-11)
 
 ### Bug Fixes
 
 * **docs:** Fix wording of description ([79c2c5b](https://github.com/jrappen/sublime-auto-dark/commit/79c2c5b3263c39c8cfbd8581804468ecda19b154))
-
-
-
-## [1.1.6](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.6) (2020-03-11)
-
-### Bug Fixes
-
 * **docs:** Update usage description ([88cca1c](https://github.com/jrappen/sublime-auto-dark/commit/88cca1cd8fdeb21d1bf59f721fe92a76eb35152d))
 * [requested changes from `wbond/package_control_channel#7846`](https://github.com/wbond/package_control_channel/issues/7846#issuecomment-597317204):
     * **PkgCtrl:** Remove (implied) linux support ([73f58e8](https://github.com/jrappen/sublime-auto-dark/commit/73f58e8155f7495c74778e29f5c67894fd3ea5ec))
@@ -38,3 +30,5 @@
 * **Python:** Simplify dark mode detection ([1d0bc03](https://github.com/jrappen/sublime-auto-dark/commit/1d0bc039ecf0cb6501798044bcc40ebdd589528c))
 
 # 1.0.0 (2020-03-04)
+
+First release.
