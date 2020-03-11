@@ -1,19 +1,12 @@
-## [1.1.6](https://github.com/jrappen/sublime-auto-dark/compare/1.1.5...1.1.6) (2020-03-11)
-
+## [1.1.6](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.6) (2020-03-11)
 
 ### Bug Fixes
 
 * **docs:** Update usage description ([88cca1c](https://github.com/jrappen/sublime-auto-dark/commit/88cca1cd8fdeb21d1bf59f721fe92a76eb35152d))
-
-
-
-## [1.1.5](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.5) (2020-03-11)
-
-### Bug Fixes
-
-* **PkgCtrl:** Remove (implied) linux support ([73f58e8](https://github.com/jrappen/sublime-auto-dark/commit/73f58e8155f7495c74778e29f5c67894fd3ea5ec))
+* [requested changes from `wbond/package_control_channel#7846`](https://github.com/wbond/package_control_channel/issues/7846#issuecomment-597317204):
+    * **PkgCtrl:** Remove (implied) linux support ([73f58e8](https://github.com/jrappen/sublime-auto-dark/commit/73f58e8155f7495c74778e29f5c67894fd3ea5ec))
+    * **Python:** Don't use a class ([e778640](https://github.com/jrappen/sublime-auto-dark/commit/e77864014a82785b4ee8d429fabeae2880f0ed3c))
 * **PkgCtrl:** Slim down size of shipped package ([5d4c622](https://github.com/jrappen/sublime-auto-dark/commit/5d4c6224f91f1e4ae94684ff94d9932b763cec8c))
-* **Python:** Don't use a class ([e778640](https://github.com/jrappen/sublime-auto-dark/commit/e77864014a82785b4ee8d429fabeae2880f0ed3c))
 * **Python:** Fix typo ([c2b4d1f](https://github.com/jrappen/sublime-auto-dark/commit/c2b4d1fbbd85d9b44bed982991f3d26551ca7644))
 * **Python:** Add more debugging code ([b6efbe8](https://github.com/jrappen/sublime-auto-dark/commit/b6efbe8db882fc6ce169866f7f702a4173e338cf))
 * **Python:** Add missing arg `cls` ([27924dc](https://github.com/jrappen/sublime-auto-dark/commit/27924dcb790592ae75b5f1a52b142ca075e2388d))
