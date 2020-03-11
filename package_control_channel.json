@@ -16,6 +16,7 @@
 			[
 				{
 					"sublime_text": ">=4065",
+					"platforms": ["osx", "windows"],
 					"tags": true
 				}
 			]
