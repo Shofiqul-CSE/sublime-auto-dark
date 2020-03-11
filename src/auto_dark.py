@@ -75,13 +75,13 @@ def _is_dark_os():
     if pf == 'osx':
         try:
             import subprocess
-            status = subprocess.check_output(
+            with subprocess.check_output(
                 'defaults read -g AppleInterfaceStyle'.split(),
                 stderr = subprocess.STDOUT
-            ).decode().replace('\n', '')
+            ).decode().replace('\n', '') as status:
+                return True if status.lower() == 'dark' else False
         except Exception as e:
             return False
-        return True if status.lower() == 'dark' else False
     elif pf == 'windows':
         value = 1 # default to light theme
         try:
