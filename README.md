@@ -47,7 +47,7 @@ Using **Package Control** is not required, but recommended as it keeps your pack
 
 Automatically switch Sublime Color Schemes with your operating system's appearance:
 
-* when switching to Sublime
+* when switching tabs within or switching to Sublime
 * or every 5 mins (on the clock)
 
 `auto-dark` will copy:
