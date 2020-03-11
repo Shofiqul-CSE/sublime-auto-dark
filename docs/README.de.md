@@ -1,6 +1,6 @@
 # `auto-dark` Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
-> Wechsle automatisch Sublime Color Schemes mit dem Aussehen deines Operationssystems.
+> Automatischer "dark mode", der deine Sublime Color Schemes aufgrund des Aussehens deines Operationssystems ändert.
 
 ## Voraussetzungen
 

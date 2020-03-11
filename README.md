@@ -7,7 +7,7 @@
 
 # `auto-dark` plug-in for [Sublime Text](https://www.sublimetext.com)
 
-> Automatically switch Sublime Color Schemes with your operating system's appearance.
+> Automatic dark mode, switches your Sublime Color Schemes according to your operating system's appearance.
 
 ## Documentation
 
