@@ -43,13 +43,15 @@ Du kannst dafür auch den Name der Ressource anstatt des vollen (lokalen) Pfads 
 
 ### Lizenz
 
-Siehe [`LICENSE`](https://github.com/jrappen/sublime-auto-dark/blob/master/LICENSE).
+Copyright (c) 2020 Johannes Rappen, ISC Lizenz
+
+Siehe [`jrappen/sublime-auto-dark:LICENSE@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/LICENSE).
 
 #### Danksagungen
 
-> [`deathaxe/sublime-clock:clock.py@master`](https://github.com/deathaxe/sublime-clock/blob/master/clock.py)
+> Copyright (c) 2016 Deathaxe, MIT Lizenz
 >
-> Copyright (c) 2016 Deathaxe, MIT License
+> Siehe [`deathaxe/sublime-clock:clock.py@master`](https://github.com/deathaxe/sublime-clock/blob/master/clock.py).
 
 ### Feedback
 

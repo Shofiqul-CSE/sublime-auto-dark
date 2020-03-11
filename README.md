@@ -64,13 +64,15 @@ You can use the resource name instead of its full (local) resource path.
 
 ### License
 
-See [`LICENSE`](https://github.com/jrappen/sublime-auto-dark/blob/master/LICENSE).
+Copyright (c) 2020 Johannes Rappen, ISC License
+
+See [`jrappen/sublime-auto-dark:LICENSE@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/LICENSE).
 
 #### Acknowledgements
 
-> [`deathaxe/sublime-clock:clock.py@master`](https://github.com/deathaxe/sublime-clock/blob/master/clock.py)
->
 > Copyright (c) 2016 Deathaxe, MIT License
+>
+> See [`deathaxe/sublime-clock:clock.py@master`](https://github.com/deathaxe/sublime-clock/blob/master/clock.py).
 
 ### Issues
 
