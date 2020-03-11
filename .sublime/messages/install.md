@@ -1,7 +1,8 @@
 Thank you for choosing `auto-dark`
 ----------------------------------
 
-Automatically switch Sublime Color Schemes with your operating system's appearance:
+Automatic dark mode, switches your Sublime Color Schemes according to your
+operating system's appearance:
 
 * when switching tabs within or switching to Sublime
 * or every 5 mins (on the clock)
