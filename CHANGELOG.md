@@ -1,3 +1,12 @@
+## [1.1.6](https://github.com/jrappen/sublime-auto-dark/compare/1.1.5...1.1.6) (2020-03-11)
+
+
+### Bug Fixes
+
+* **docs:** Update usage description ([88cca1c](https://github.com/jrappen/sublime-auto-dark/commit/88cca1cd8fdeb21d1bf59f721fe92a76eb35152d))
+
+
+
 ## [1.1.5](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.5) (2020-03-11)
 
 ### Bug Fixes
