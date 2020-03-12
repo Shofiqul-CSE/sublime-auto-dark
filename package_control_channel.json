@@ -9,8 +9,11 @@
 			"donate": "https://paypal.me/jrappen",
 			"labels":
 			[
-				"dark-mode",
-				"automation"
+				"adaptive",
+				"automation",
+				"color scheme",
+				"dark mode",
+				"utilities"
 			],
 			"releases":
 			[
