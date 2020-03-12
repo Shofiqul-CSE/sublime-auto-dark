@@ -45,7 +45,7 @@ def _tick():
         if running:
             sublime.set_timeout_async(_tick, _update())
     except Exception as e:
-        print('AutoDark: Error: ', e)
+        print('AutoDark: Error(_tick): ', e)
         _stop()
 
 
@@ -67,7 +67,7 @@ def _paint():
             pref.set('color_scheme', cs_new)
             sublime.save_settings('Preferences.sublime-settings')
     except Exception as e:
-        print('AutoDark: Error: ', e)
+        print('AutoDark: Error(_paint): ', e)
 
 
 def _is_dark_os():
@@ -75,12 +75,13 @@ def _is_dark_os():
     if pf == 'osx':
         try:
             import subprocess
-            with subprocess.check_output(
+            status = subprocess.check_output(
                 'defaults read -g AppleInterfaceStyle'.split(),
                 stderr = subprocess.STDOUT
-            ).decode().replace('\n', '') as status:
-                return True if status.lower() == 'dark' else False
+            ).decode().replace('\n', '')
+            return True if status.lower() == 'dark' else False
         except Exception as e:
+            print('AutoDark: Error(_is_dark_os("osx")): ', e)
             return False
     elif pf == 'windows':
         value = 1 # default to light theme
@@ -96,7 +97,7 @@ def _is_dark_os():
                 ) as key:
                     value, value_type = winreg.QueryValueEx(key, 'AppsUseLightTheme')
         except Exception as e:
-            print('AutoDark: Error: ', e)
+            print('AutoDark: Error(_is_dark_os("windows")): ', e)
         return not bool(value)
     else:
         return False

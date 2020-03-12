@@ -10,3 +10,6 @@ from .window_commands import *
 
 def plugin_loaded():
     auto_dark.plugin_loaded()
+
+def plugin_unloaded():
+    auto_dark.plugin_unloaded()
