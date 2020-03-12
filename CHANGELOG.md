@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/jrappen/sublime-auto-dark/compare/1.1.9...1.2.0) (2020-03-12)
+
+
+### Bug Fixes
+
+* **GitHub:** Update issue template ([b118cb4](https://github.com/jrappen/sublime-auto-dark/commit/b118cb4dd91606afa2af6a0be05ab7cfab263b09))
+* **PkgCtrl:** Update metadata labels ([18b668b](https://github.com/jrappen/sublime-auto-dark/commit/18b668b0a751b828d37464d4b63a14da06c25e54))
+
+
+### Features
+
+* **docs:** Ship changelog with package ([7f59f4b](https://github.com/jrappen/sublime-auto-dark/commit/7f59f4b517a187cb9fba2f015bcaf251a37e0402))
+
+
+
 ## [1.1.9](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.9) (2020-03-12)
 
 ### Bug Fixes
