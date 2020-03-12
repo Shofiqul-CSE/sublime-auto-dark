@@ -1,16 +1,8 @@
-## [1.1.9](https://github.com/jrappen/sublime-auto-dark/compare/1.1.8...1.1.9) (2020-03-12)
-
+## [1.1.9](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.9) (2020-03-12)
 
 ### Bug Fixes
 
 * **Python:** Unload plugin & better debug printing ([f8c7c3c](https://github.com/jrappen/sublime-auto-dark/commit/f8c7c3c74072f1890ef45d95da74b38dfab17dc5))
-
-
-
-## [1.1.8](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.8) (2020-03-11)
-
-### Bug Fixes
-
 * **Python:** Fix logic of detecting dark mode ([cbe416d](https://github.com/jrappen/sublime-auto-dark/commit/cbe416d3eb26bb1fa4f1952ad035fa3539642583))
 * **docs:** Fix wording of description ([79c2c5b](https://github.com/jrappen/sublime-auto-dark/commit/79c2c5b3263c39c8cfbd8581804468ecda19b154))
 * **docs:** Update usage description ([88cca1c](https://github.com/jrappen/sublime-auto-dark/commit/88cca1cd8fdeb21d1bf59f721fe92a76eb35152d))
