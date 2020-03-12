@@ -1,3 +1,12 @@
+## [1.1.9](https://github.com/jrappen/sublime-auto-dark/compare/1.1.8...1.1.9) (2020-03-12)
+
+
+### Bug Fixes
+
+* **Python:** Unload plugin & better debug printing ([f8c7c3c](https://github.com/jrappen/sublime-auto-dark/commit/f8c7c3c74072f1890ef45d95da74b38dfab17dc5))
+
+
+
 ## [1.1.8](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.1.8) (2020-03-11)
 
 ### Bug Fixes
