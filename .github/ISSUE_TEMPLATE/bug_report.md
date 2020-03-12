@@ -51,5 +51,5 @@ System:
 
 Package Control:
     Package Control: 3.3.0
-    auto-dark: 1.1.8
+    auto-dark: 1.2.0
 ```
