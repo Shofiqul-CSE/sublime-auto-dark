@@ -17,10 +17,10 @@
     },
     {
         "caption": "auto-dark: Changelog",
-        "command": "open_url",
+        "command": "auto_dark_open_docs",
         "args":
         {
-            "url": "https://github.com/jrappen/sublime-auto-dark/blob/master/CHANGELOG.md"
+            "resource_path": "CHANGELOG.md"
         }
     },
     {
