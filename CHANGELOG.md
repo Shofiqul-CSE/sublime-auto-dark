@@ -1,22 +1,9 @@
-## [2.0.1](https://github.com/jrappen/sublime-auto-dark/compare/1.2.2...2.0.1) (2020-03-16)
-
+## [2.0.1](https://github.com/jrappen/sublime-auto-dark/compare/st4-2.0.0...2.0.1) (2020-03-16)
 
 ### Bug Fixes
 
 * **PkgCtrl:** Use `"tags": true` for ST4 tags ([b02afb1](https://github.com/jrappen/sublime-auto-dark/commit/b02afb148e3128d7f2d09ea382e296c8ed967819))
 * **Sublime Text:** Supported version range for ST3 ([bcfc128](https://github.com/jrappen/sublime-auto-dark/commit/bcfc12876e809a856ba83afc510895e3faf6f46e))
-
-
-### Features
-
-* **Sublime Text:** Add ST3 support ([9009d30](https://github.com/jrappen/sublime-auto-dark/commit/9009d30cdd4d74f1882bb4a0cb697d416d993474)), closes [jrappen/sublime-auto-dark#1](https://github.com/jrappen/sublime-auto-dark/issues/1)
-
-
-### BREAKING CHANGES
-
-* **Sublime Text:** Add ST3 support
-
-
 
 # [2.0.0](https://github.com/jrappen/sublime-auto-dark/compare/1.2.0...st4-2.0.0) (2020-03-16)
 
