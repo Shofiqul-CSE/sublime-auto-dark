@@ -1,4 +1,4 @@
-## [1.2.1](https://github.com/jrappen/sublime-auto-dark/compare/1.2.0...1.2.1) (2020-03-16)
+## [1.2.2](https://github.com/jrappen/sublime-auto-dark/compare/1.2.0...1.2.2) (2020-03-16)
 
 ### Bug Fixes
 
