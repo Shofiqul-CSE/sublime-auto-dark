@@ -1,26 +1,26 @@
 [
     {
         "caption": "auto-dark: Documentation: English",
-        "command": "auto_dark_open_docs",
+        "command": "open_url",
         "args":
         {
-            "resource_path": "docs/README.en.md"
+            "url": "https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.en.md"
         }
     },
     {
         "caption": "auto-dark: Documentation: German (Deutsch)",
-        "command": "auto_dark_open_docs",
+        "command": "open_url",
         "args":
         {
-            "resource_path": "docs/README.de.md"
+            "url": "https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.de.md"
         }
     },
     {
         "caption": "auto-dark: Changelog",
-        "command": "auto_dark_open_docs",
+        "command": "open_url",
         "args":
         {
-            "resource_path": "CHANGELOG.md"
+            "url": "https://github.com/jrappen/sublime-auto-dark/blob/master/CHANGELOG.md"
         }
     },
     {

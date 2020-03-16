@@ -12,7 +12,7 @@ const release = async() => {
     .parse(fs.readFileSync('./package.json', 'utf8'))
     .version
 
-  console.log(`[./scripts/release.js] Current version: ${curVersion}`)
+  console.log(`[./scripts/release.js] Current version: st3-${curVersion}`)
 
   const bumps = ['major', 'minor', 'patch', 'prerelease']
   const versions = {}
@@ -37,7 +37,7 @@ const release = async() => {
   const { yes } = await inquirer.prompt([
     {
       name: 'yes',
-      message: `Confirm releasing ${version}?`,
+      message: `Confirm releasing st3-${version}?`,
       type: 'list',
       choices: ['Cancel', 'Ok']
     }
@@ -50,19 +50,15 @@ const release = async() => {
 
   await execa('npm', ['--no-git-tag-version', 'version', version], { stdio: 'inherit' })
   await execa('git', ['add', '-A'], { stdio: 'inherit' })
-  await execa('git', ['commit', '-m', `bump: Bump package from ${curVersion} to ${version}`], { stdio: 'inherit' })
+  await execa('git', ['commit', '-m', `bump: Bump package from st3-${curVersion} to st3-${version}`], { stdio: 'inherit' })
 
-  // assuming conventional-changelog-cli is installed globally via npm or yarn
-  await execa('conventional-changelog', ['-p', 'angular', '-i', 'CHANGELOG.md', '-s'], { stdio: 'inherit' })
+//  Documentation and Changelog on master branch for ST4
 
-  await execa('git', ['add', '-A'], { stdio: 'inherit' })
-  await execa('git', ['commit', '-m', `docs(CHANGELOG): Update CHANGELOG to ${version}`], { stdio: 'inherit' })
+  await execa('git', ['commit', '--allow-empty', '-S', '-m', `release: st3-${version}`], { stdio: 'inherit' })
+  await execa('git', ['tag', '-s', `st3-${version}`, '-m', `st3-${version}`], { stdio: 'inherit' })
+  await execa('git', ['push', 'origin', 'st3', '--tags'], { stdio: 'inherit' })
 
-  await execa('git', ['commit', '--allow-empty', '-S', '-m', `release: ${version}`], { stdio: 'inherit' })
-  await execa('git', ['tag', '-s', `${version}`, '-m', `${version}`], { stdio: 'inherit' })
-  await execa('git', ['push', 'origin', 'master', '--tags'], { stdio: 'inherit' })
-
-  console.log(`[./scripts/release.js] Done releasing version: ${version}`)
+  console.log(`[./scripts/release.js] Done releasing version: st3-${version}`)
 }
 
 release().catch(err => {
