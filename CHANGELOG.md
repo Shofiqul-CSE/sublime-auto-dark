@@ -1,11 +1,8 @@
 ## [1.2.1](https://github.com/jrappen/sublime-auto-dark/compare/1.2.0...1.2.1) (2020-03-16)
 
-
 ### Bug Fixes
 
 * **Python:** Don't print error when light on macOS ([7c566bd](https://github.com/jrappen/sublime-auto-dark/commit/7c566bdda4460cd71d42730cd2ace4d929c7af0e))
-
-
 
 # [1.2.0](https://github.com/jrappen/sublime-auto-dark/compare/1.1.0...1.2.0) (2020-03-12)
 
