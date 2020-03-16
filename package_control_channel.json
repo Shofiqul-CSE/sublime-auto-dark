@@ -20,7 +20,7 @@
 				{
 					"sublime_text": ">=4065",
 					"platforms": ["osx", "windows"],
-					"tags": "st4-"
+					"tags": true
 				},
 				{
 					"sublime_text": "3006-3211",
