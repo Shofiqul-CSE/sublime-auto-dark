@@ -81,7 +81,7 @@ def _is_dark_os():
             ).decode().replace('\n', '')
             return True if status.lower() == 'dark' else False
         except Exception as e:
-            print('AutoDark: Error(_is_dark_os("osx")): ', e)
+            # return false when light, don't print an error
             return False
     elif pf == 'windows':
         value = 1 # default to light theme
