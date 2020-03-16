@@ -1,6 +1,6 @@
 {
     "name": "sublime-auto-dark",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Automatic dark mode, switches your Sublime Color Schemes according to your operating system's appearance.",
     "author": {
         "name": "Johannes Rappen",
