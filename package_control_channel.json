@@ -23,7 +23,7 @@
 					"tags": "st4-"
 				},
 				{
-					"sublime_text": ">=3006",
+					"sublime_text": "3006-3211",
 					"platforms": ["osx", "windows"],
 					"tags": "st3-"
 				}
