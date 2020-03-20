@@ -2,6 +2,16 @@
 
 > Automatischer "dark mode", der deine Sublime Color Schemes aufgrund des Aussehens deines Operationssystems ändert.
 
+* [Voraussetzungen](#voraussetzungen)
+* [Installation](#installation)
+    * [Installation über Package Control](#installation-über-package-control)
+* [Verwendung](#verwendung)
+* [Quellcode](#quellcode)
+    * [Lizenz](#lizenz)
+        * [Danksagungen](#danksagungen)
+    * [Feedback](#feedback)
+* [Spenden](#spenden)
+
 ## Voraussetzungen
 
 print ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4065+`** oder **`Build 3006+`**.

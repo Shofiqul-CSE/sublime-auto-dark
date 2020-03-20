@@ -2,6 +2,16 @@
 
 > Automatic dark mode, switches your Sublime Color Schemes according to your operating system's appearance.
 
+* [Requirements](#requirements)
+* [Installation](#installation)
+    * [Installation via Package Control](#installation-via-package-control)
+* [Usage](#usage)
+* [Source Code](#source-code)
+    * [License](#license)
+        * [Acknowledgements](#acknowledgements)
+    * [Issues](#issues)
+* [Donations](#donations)
+
 ## Requirements
 
 auto-dark targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065+`** or **`Build 3006+`**.

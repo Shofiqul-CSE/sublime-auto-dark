@@ -10,15 +10,28 @@
 
 > Automatic dark mode, switches your Sublime Color Schemes according to your operating system's appearance.
 
+* [Documentation](#documentation)
+    * [English](#english)
+    * [German (Deutsch)](#german-deutsch)
+* [Requirements](#requirements)
+* [Installation](#installation)
+    * [Installation via Package Control](#installation-via-package-control)
+* [Usage](#usage)
+* [Source Code](#source-code)
+    * [License](#license)
+        * [Acknowledgements](#acknowledgements)
+    * [Issues](#issues)
+* [Donations](#donations)
+
 ## Documentation
 
-### English 🇺🇸🇬🇧🇨🇦🇦🇺🇳🇿
+### English
 
 > Plugin documentation is available in English via the menu or command palette.
 
 [`jrappen/sublime-auto-dark:docs/README.en.md@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.en.md)
 
-### German (Deutsch) 🇩🇪🇦🇹🇨🇭
+### German (Deutsch)
 
 > Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
 
