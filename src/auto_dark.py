@@ -63,8 +63,13 @@ def _paint():
         is_dark = _is_dark_os()
         cs_now = pref.get('color_scheme', 'Monokai.sublime-color-scheme')
         cs_new = pref.get('color_scheme.dark', 'Mariana.sublime-color-scheme') if is_dark else pref.get('color_scheme.light', 'Breakers.sublime-color-scheme')
+        theme_now = pref.get('theme', 'Default.sublime-theme')
+        theme_new = pref.get('theme.dark', 'Adaptive.sublime-theme') if is_dark else pref.get('theme.light', 'Adaptive.sublime-theme')
         if cs_now != cs_new:
             pref.set('color_scheme', cs_new)
+        if theme_now != theme_new:
+            pref.set('theme', theme_new)
+        if cs_now != cs_new or theme_now != theme_new:
             sublime.save_settings('Preferences.sublime-settings')
     except Exception as e:
         print('AutoDark: Error(_paint): ', e)
