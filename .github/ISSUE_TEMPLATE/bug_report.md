@@ -42,14 +42,14 @@ Sublime Text:
 
 System:
   hardware: MBP 15" 2018, i9 2.9GHz, 32GB, 1TB, Radeon Pro 560X
-  software: macOS Catalina 10.15.3 (19D76)
+  software: macOS Catalina 10.15.4 (19E266)
     open_gl:
-      gl_api_version: 4.1 INTEL-14.4.23
+      gl_api_version: 4.1 INTEL-14.5.22
       glsl_version: 4.10
       vendor: Intel Inc.
       renderer: Intel(R) UHD Graphics 630
 
 Package Control:
     Package Control: 3.3.0
-    auto-dark: 2.0.0
+    auto-dark: 3.0.0
 ```

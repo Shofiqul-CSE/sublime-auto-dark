@@ -8,7 +8,7 @@ labels:
 
 <!--
     Before creating an issue please make sure you are using the latest version
-    of distractionless.
+    of auto-dark.
 -->
 
 # Feature request
