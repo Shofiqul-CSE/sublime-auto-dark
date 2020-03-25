@@ -1,3 +1,12 @@
+## [3.0.1](https://github.com/jrappen/sublime-auto-dark/compare/3.0.0...3.0.1) (2020-03-25)
+
+
+### Bug Fixes
+
+* **PkgCtrl:** Update installation instructions ([d988a7a](https://github.com/jrappen/sublime-auto-dark/commit/d988a7a0b46e981dc13450e661a3933d1aa772a6))
+
+
+
 # [3.0.0](https://github.com/jrappen/sublime-auto-dark/compare/st4-2.0.0...3.0.0) (2020-03-25)
 
 ### BREAKING CHANGES
