@@ -1,4 +1,4 @@
-Thank you for upgrading `auto-dark` to `v3.0.0` (2020-03-25)
+Thank you for upgrading `auto-dark` to `v3.0.1` (2020-03-25)
 ------------------------------------------------------------
 
 `auto-dark` will now copy:
