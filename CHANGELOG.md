@@ -1,3 +1,24 @@
+# [3.0.0](https://github.com/jrappen/sublime-auto-dark/compare/2.0.1...3.0.0) (2020-03-25)
+
+
+### Bug Fixes
+
+* **docs:** Update docs for v3.0.0 ([eed3b91](https://github.com/jrappen/sublime-auto-dark/commit/eed3b91cd4c93b6558f4b27091a18cbff7fe5378))
+* **GitHub:** Update issue templates ([21a1b0f](https://github.com/jrappen/sublime-auto-dark/commit/21a1b0f7898b78c1b14358ed0709ee5636dacecd))
+* **PkgCtrl:** Fix supported version range for ST3 ([d6bade3](https://github.com/jrappen/sublime-auto-dark/commit/d6bade313484733c693636715fdaa9082e2b9b68))
+
+
+### Features
+
+* **Python:** Also toggle sublime theme ([65e1459](https://github.com/jrappen/sublime-auto-dark/commit/65e145908ba45b756eca4039bbf7eee45e75a5a9))
+
+
+### BREAKING CHANGES
+
+* **Python:** Also toggle sublime theme
+
+
+
 ## [2.0.1](https://github.com/jrappen/sublime-auto-dark/compare/st4-2.0.0...2.0.1) (2020-03-16)
 
 ### Bug Fixes
