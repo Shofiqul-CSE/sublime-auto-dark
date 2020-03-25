@@ -1,6 +1,6 @@
 # `auto-dark` Erweiterung für [Sublime Text](https://www.sublimetext.com)
 
-> Automatischer "dark mode", der deine Sublime Color Schemes aufgrund des Aussehens deines Operationssystems ändert.
+> Automatischer "dark mode", der das Sublime Text UI aufgrund des Aussehens deines Operationssystems ändert.
 
 * [Voraussetzungen](#voraussetzungen)
 * [Installation](#installation)
@@ -34,17 +34,22 @@ Die Verwendung von **Package Control** wird nicht zwingend vorausgesetzt, aber d
 
 ## Verwendung
 
-Wechsle automatisch Sublime Color Schemes mit dem Aussehen deines Operationssystems:
+Wechsle automatisch das Sublime Text UI mit dem Aussehen deines Operationssystems:
 
 * beim Wechseln von Tabs innerhalb oder beim Wechseln zu Sublime
 * oder alle 5 Min (auf der Uhr)
 
-`auto-dark` kopiert:
+`auto-dark` kopiert hierbei:
 
 * `color_scheme.light`
 * oder `color_scheme.dark`
 
-zu dem Zeitpunkt zu `color_scheme` in `Preferences.sublime-settings`.
+zu `color_scheme` sowie:
+
+* `theme.light`
+* oder `theme.dark`
+
+zu `theme` zu jenem Zeitpunkt in `Preferences.sublime-settings`.
 Du kannst dafür auch den Name der Ressource anstatt des vollen (lokalen) Pfads verwenden.
 
 ## Quellcode

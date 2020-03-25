@@ -8,7 +8,7 @@
 
 # `auto-dark` plug-in for [Sublime Text](https://www.sublimetext.com)
 
-> Automatic dark mode, switches your Sublime Color Schemes according to your operating system's appearance.
+> Automatic dark mode, switches Sublime Text's UI according to your operating system's appearance.
 
 * [Documentation](#documentation)
     * [English](#english)
@@ -59,7 +59,7 @@ Using **Package Control** is not required, but recommended as it keeps your pack
 
 ## Usage
 
-Automatically switch Sublime Color Schemes with your operating system's appearance:
+Automatically switch Sublime Text's UI with your operating system's appearance:
 
 * when switching tabs within or switching to Sublime
 * or every 5 mins (on the clock)
@@ -69,7 +69,12 @@ Automatically switch Sublime Color Schemes with your operating system's appearan
 * `color_scheme.light`
 * or `color_scheme.dark`
 
-to `color_scheme` in `Preferences.sublime-settings` at that time.
+to `color_scheme` as well as:
+
+* `theme.light`
+* or `theme.dark`
+
+to `theme` in `Preferences.sublime-settings` at that time.
 You can use the resource name instead of its full (local) resource path.
 
 ## Source Code
