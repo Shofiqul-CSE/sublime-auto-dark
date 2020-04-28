@@ -1,6 +1,6 @@
 {
     "name": "sublime-auto-dark",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "Automatic dark mode, switches Sublime Text's UI according to your operating system's appearance.",
     "author": {
         "name": "Johannes Rappen",
