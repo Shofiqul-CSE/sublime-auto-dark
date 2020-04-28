@@ -1,17 +1,19 @@
-Thank you for upgrading `auto-dark` to `v3.0.1` (2020-03-25)
+Thank you for upgrading `auto-dark` to `v3.0.2` (2020-04-28)
 ------------------------------------------------------------
 
-`auto-dark` will now copy:
+`auto-dark` made adjustments for ST4074 and `mdpopups` v3.6.2.
 
-* `color_scheme.light`
-* or `color_scheme.dark`
+Please manually run:
 
-to `color_scheme` as well as:
+    `PackageControl: Satisfy Dependencies`
 
-* `theme.light`
-* or `theme.dark`
+from the Command Palette to update mdpopups to v3.6.2 or later.
 
-to `theme` in `Preferences.sublime-settings`.
+There is still a known issue with auto-changing appearances on Catalina:
+
+    https://github.com/jrappen/sublime-auto-dark/issues/3
+
+This will be fixed hopefully soon.
 
 ---
 
