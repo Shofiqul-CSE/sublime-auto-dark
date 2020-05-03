@@ -2,15 +2,33 @@
 
 > Automatischer "dark mode", der das Sublime Text UI aufgrund des Aussehens deines Operationssystems ändert.
 
+* [Dokumentation](#dokumentation)
 * [Voraussetzungen](#voraussetzungen)
 * [Installation](#installation)
-    * [Installation über Package Control](#installation-über-package-control)
 * [Verwendung](#verwendung)
 * [Quellcode](#quellcode)
-    * [Lizenz](#lizenz)
-        * [Danksagungen](#danksagungen)
-    * [Feedback](#feedback)
 * [Spenden](#spenden)
+
+## Dokumentation
+
+> Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
+
+* Englisch (English):
+  <https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.en.md>
+* Deutsch:
+  <https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.de.md>
+
+### Code of conduct
+
+> ist in den **default community health files** zu finden
+
+<https://github.com/jrappen/.github/blob/master/CODE_OF_CONDUCT.md>
+
+### Contributing guide
+
+> ist in den **default community health files** zu finden
+
+<https://github.com/jrappen/.github/blob/master/CONTRIBUTING.md>
 
 ## Voraussetzungen
 

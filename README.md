@@ -11,31 +11,32 @@
 > Automatic dark mode, switches Sublime Text's UI according to your operating system's appearance.
 
 * [Documentation](#documentation)
-    * [English](#english)
-    * [German (Deutsch)](#german-deutsch)
 * [Requirements](#requirements)
 * [Installation](#installation)
-    * [Installation via Package Control](#installation-via-package-control)
 * [Usage](#usage)
 * [Source Code](#source-code)
-    * [License](#license)
-        * [Acknowledgements](#acknowledgements)
-    * [Issues](#issues)
 * [Donations](#donations)
 
 ## Documentation
 
-### English
+> Plugin documentation is available via the menu or command palette.
 
-> Plugin documentation is available in English via the menu or command palette.
+* English:
+  <https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.en.md>
+* German (Deutsch):
+  <https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.de.md>
 
-[`jrappen/sublime-auto-dark:docs/README.en.md@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.en.md)
+### Code of conduct
 
-### German (Deutsch)
+> can be found in the **default community health files**
 
-> Eine plug-in Dokumentation ist über das Menü oder die Kurzbefehleingabe (command palette) verfügbar.
+<https://github.com/jrappen/.github/blob/master/CODE_OF_CONDUCT.md>
 
-[`jrappen/sublime-auto-dark:docs/README.de.md@master`](https://github.com/jrappen/sublime-auto-dark/blob/master/docs/README.de.md)
+### Contributing guide
+
+> can be found in the **default community health files**
+
+<https://github.com/jrappen/.github/blob/master/CONTRIBUTING.md>
 
 ## Requirements
 
