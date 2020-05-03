@@ -1,13 +1,13 @@
-Thank you for upgrading `auto-dark` to `v3.0.2` (2020-04-28)
+Thank you for upgrading `auto-dark` to `v3.1.1` (2020-05-03)
 ------------------------------------------------------------
 
-`auto-dark` made adjustments for ST4074 and `mdpopups` v3.6.2.
+`auto-dark` made adjustments for ST4074 and `mdpopups` v3.7.0.
 
 Please manually run:
 
     `PackageControl: Satisfy Dependencies`
 
-from the Command Palette to update mdpopups to v3.6.2 or later.
+from the Command Palette to update mdpopups to v3.7.0 or later.
 
 There is still a known issue with auto-changing appearances on Catalina:
 
