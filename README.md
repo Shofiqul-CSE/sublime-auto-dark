@@ -1,9 +1,14 @@
-[![Required ST Build](https://img.shields.io/badge/ST-Build%204065+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
+[![Required ST Build](https://img.shields.io/badge/ST-Build%204074+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
 [![Required ST Build](https://img.shields.io/badge/ST-Build%203006+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
 
 # `auto-dark` plug-in for [Sublime Text](https://www.sublimetext.com)
 
 > Automatic dark mode, switches Sublime Text's UI according to your operating system's appearance.
+
+* [Documentation](#documentation)
+* [Requirements](#requirements)
+* [Source Code](#source-code)
+* [Donations](#donations)
 
 ## Documentation
 
@@ -11,7 +16,7 @@ On `master` branch, see [`jrappen/sublime-auto-dark#readme`](https://github.com/
 
 ## Requirements
 
-auto-dark targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065+`** or **`Build 3006+`**.
+auto-dark targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4074+`** or **`Build 3006+`**.
 
 * Download [Sublime Text](https://www.sublimetext.com)
     * (stable channel)

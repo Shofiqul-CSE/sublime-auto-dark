@@ -1,6 +1,18 @@
 Thank you for choosing `auto-dark`
 ----------------------------------
 
+Documentation is available via:
+
+* the menu in `Preferences > Package Settings > auto-dark > Documentation`
+* or the Command Palette with the prefix `auto-dark: Documentation: `
+
+in the following languages:
+
+| Language         | Translator |
+|------------------|------------|
+| English          | `@jrappen` |
+| German (Deutsch) | `@jrappen` |
+
 Automatic dark mode, switches your Sublime Color Schemes according to your
 operating system's appearance:
 
