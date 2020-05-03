@@ -1,11 +1,8 @@
 ## [3.1.1](https://github.com/jrappen/sublime-auto-dark/compare/3.1.0...3.1.1) (2020-05-03)
 
-
 ### Bug Fixes
 
 * **PkgCtrl:** Bump requirements ([ad6e079](https://github.com/jrappen/sublime-auto-dark/commit/ad6e07973a976d725172f271d41a0a615e7d6708))
-
-
 
 # [3.1.0](https://github.com/jrappen/sublime-auto-dark/compare/3.0.0...3.1.0) (2020-05-03)
 
