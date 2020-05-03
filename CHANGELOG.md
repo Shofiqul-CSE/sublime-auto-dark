@@ -1,17 +1,9 @@
-## [3.0.2](https://github.com/jrappen/sublime-auto-dark/compare/3.0.1...3.0.2) (2020-04-28)
-
+## [3.0.2](https://github.com/jrappen/sublime-auto-dark/compare/3.0.0...3.0.2) (2020-04-28)
 
 ### Bug Fixes
 
 * **mdpopups:** Remove passing `cmd` to `mdpopups` ([d41d5b3](https://github.com/jrappen/sublime-auto-dark/commit/d41d5b375b2794c7cd894c36c38c878db6735883))
 * **Preferences:** Add default pref location info ([93b389b](https://github.com/jrappen/sublime-auto-dark/commit/93b389b7068c99ab7778017764b889ddc3809443))
-
-
-
-## [3.0.1](https://github.com/jrappen/sublime-auto-dark/compare/3.0.0...3.0.1) (2020-03-25)
-
-### Bug Fixes
-
 * **PkgCtrl:** Update installation instructions ([d988a7a](https://github.com/jrappen/sublime-auto-dark/commit/d988a7a0b46e981dc13450e661a3933d1aa772a6))
 
 # 3.0.0 (2020-03-25)
