@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/github/license/jrappen/sublime-auto-dark.svg?style=flat-square)](https://github.com/jrappen/sublime-auto-dark/blob/master/LICENSE)
-[![Required ST Build](https://img.shields.io/badge/ST-Build%204065+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
+[![Required ST Build](https://img.shields.io/badge/ST-Build%204074+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
 [![Required ST Build](https://img.shields.io/badge/ST-Build%203006+-orange.svg?style=flat-square&logo=sublime-text)](https://www.sublimetext.com)
 [![Downloads Package Control](https://img.shields.io/packagecontrol/dt/auto-dark.svg?style=flat-square)](https://packagecontrol.io/packages/auto-dark)
 [![Latest tag](https://img.shields.io/github/tag/jrappen/sublime-auto-dark.svg?style=flat-square&logo=github)](https://github.com/jrappen/sublime-auto-dark/tags)
@@ -40,7 +40,7 @@
 
 ## Requirements
 
-auto-dark targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4065+`** or **`Build 3006+`**.
+auto-dark targets and is tested against the **latest Build** of Sublime Text, currently requiring **`Build 4074+`** or **`Build 3006+`**.
 
 * Download [Sublime Text](https://www.sublimetext.com)
     * (stable channel)

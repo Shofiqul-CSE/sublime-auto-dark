@@ -18,7 +18,7 @@
 			"releases":
 			[
 				{
-					"sublime_text": ">=4065",
+					"sublime_text": ">=4074",
 					"platforms": ["osx", "windows"],
 					"tags": true
 				},

@@ -32,7 +32,7 @@
 
 ## Voraussetzungen
 
-print ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4065+`** oder **`Build 3006+`**.
+print ist als Erweiterung für die **neusten Build** von Sublime Text gedacht und erfordert im Moment **`Build 4074+`** oder **`Build 3006+`**.
 
 * Lade [Sublime Text](https://www.sublimetext.com) herunter
     * (stable channel)
