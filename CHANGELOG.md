@@ -1,13 +1,8 @@
-# [3.1.0](https://github.com/jrappen/sublime-auto-dark/compare/3.0.2...3.1.0) (2020-05-03)
-
+# [3.1.0](https://github.com/jrappen/sublime-auto-dark/compare/3.0.0...3.1.0) (2020-05-03)
 
 ### Features
 
 * **GitHub:** Use default community health files ([f1614c7](https://github.com/jrappen/sublime-auto-dark/commit/f1614c720048099ed31b371693815186bad03796))
-
-
-
-## [3.0.2](https://github.com/jrappen/sublime-auto-dark/compare/3.0.0...3.0.2) (2020-04-28)
 
 ### Bug Fixes
 
